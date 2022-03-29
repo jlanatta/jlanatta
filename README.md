@@ -1,6 +1,6 @@
 ## Hi there, I'm Javier 👋
 I've been a developer for more than 20 years. During all these years I've been pretty busy:
-- I started my professional career in 1998 writing embedded apps in C running in the wonderful QNX operating system.
+- I started my professional career in 1998 writing embedded apps in C running in the wonderful QNX realtime operating system.
 - Of course, after that came the web so I wrote some websites using ASP. Later on, I moved to Java/JSP.
 - In 2004 some super enlightened people and me founded Quadion Technologies. Our goal was to provide awesome-level developing services and we've been rocking since then.
 - Around 2007 I wrote my first Ruby on Rails webapp and there is no way you can convince me that there is anything faster to prototype and end up with real world app, no f\*\*\*ing way.
