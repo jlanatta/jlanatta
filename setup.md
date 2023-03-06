@@ -3,9 +3,15 @@
   - cat: [bat](https://github.com/sharkdp/bat)
   - top: [btop](https://github.com/aristocratos/btop)
 
+## Utilities
+```
+brew install --cask provisionql
+```
 ### Aliases
 
-`vi ~/.zshrc`
+```
+vi ~/.zshrc
+```
 
 ``` bash
 alias ls="exa"
