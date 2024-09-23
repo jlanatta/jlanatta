@@ -5,7 +5,7 @@
 
 ### Install
 ```
-brew install exa
+brew install eza
 brew install bat
 brew install btop
 ```
@@ -20,9 +20,9 @@ vi ~/.zshrc
 ```
 
 ``` bash
-alias ls="exa"
-alias ll="exa -alh --grid"
-alias tree="exa --tree"
+alias ls="eza"
+alias ll="eza -alh --grid"
+alias tree="eza --tree"
 alias cat="bat"
 ```
 
@@ -35,4 +35,14 @@ rbenv install 3.1.3
 export DLDFLAGS=-Wl,-undefined,dynamic_lookup
 gem install grpc -v 1.50.0
 bundler
+```
+### Rails
+```
+brew install shared-mime-info
+```
+### Postgres
+```
+brew install libpq
+bundle config build.pg --with-pg-config=/opt/homebrew/opt/libpq/bin/pg_config
+bunder
 ```
