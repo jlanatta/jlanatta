@@ -14,7 +14,7 @@
 
 global = {
   \key g \major
-  \numericTimeSignature  
+  \numericTimeSignature
 }
 
 mus = { \bar "|." }
@@ -28,10 +28,12 @@ mus = { \bar "|." }
   \markuplist \table-of-contents
   \pageBreak 
   \tocItem \markup  "Sol Mayor"
+  
   \bookpart {
     \header {
       title = "Sol Mayor"
     }
+
     \score {
       \new Staff {
         \set Staff.midiInstrument = "violin"
@@ -45,7 +47,7 @@ mus = { \bar "|." }
         }
       }
       \layout { }
-      \midi  {  }
+      \midi { }
     }
     
     \score {
@@ -53,14 +55,20 @@ mus = { \bar "|." }
         \set Staff.midiInstrument = "violin"
         \relative c' {
           \global
-          \time 2/4
-          \tempo "Adagio" 4 = 52
-          g8 (a) b (c) d (e) fis (g) a (b) c (d) e (fis) g (fis) e-4 (d) c (b) a-4 (g) fis (e) d-4 (c) b (a) g4 r4
+          \time 4/4
+          g8 [(a) b (c)]
+          d [(e) fis (g)]
+          a [(b) c (d)]
+          e [(fis) g (fis)]
+          e-4 [(d) c (b)]
+          a-4 [(g) fis (e)]
+          d-4 [(c) b (a)]
+          g4 r4
           \mus
         }
       }
       \layout { }
-      \midi  {  }
+      \midi { }
     }
     
     \score {
@@ -69,7 +77,6 @@ mus = { \bar "|." }
         \relative c' {
           \global
           \time 2/4
-          \tempo "Adagio" 4 = 52
           \tuplet 3/2 { g8 [(a b)] }
           \tuplet 3/2 { c [(d e)] }
           \tuplet 3/2 { fis [(g a)] }
@@ -84,7 +91,7 @@ mus = { \bar "|." }
         }
       }
       \layout { }
-      \midi  {  }
+      \midi { }
    }
     
     \score {
@@ -93,16 +100,16 @@ mus = { \bar "|." }
         \sectionLabel Arpegio
         \relative c' {
           \global
-          \time 2/4
-          \tempo "Adagio" 4 = 52
-          g8 (b d g b d)
-          g (d b g d b)
-          g4 r4
+          \time 4/4
+          g8 [(b d g]
+          b [d) g (d]
+          b [g d b)]
+          g4 r
           \mus
         }
       }
       \layout { }
-      \midi  {  }
+      \midi { }
     }
   }
   % \pageBreak
