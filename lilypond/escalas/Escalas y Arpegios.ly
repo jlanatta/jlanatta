@@ -40,7 +40,7 @@ mus = { \bar "|." }
         \relative c' {
           \global
           \sectionLabel Escala 
-          \time 4/4
+          \time 2/4
           \tempo "Adagio" 4 = 52
           g a b c d e fis g a b c d e fis g fis e-4 d c b a-4 g fis e d-4 c b a g r r2
           \mus
@@ -55,14 +55,14 @@ mus = { \bar "|." }
         \set Staff.midiInstrument = "violin"
         \relative c' {
           \global
-          \time 4/4
-          g8 [(a) b (c)]
-          d [(e) fis (g)]
-          a [(b) c (d)]
-          e [(fis) g (fis)]
-          e-4 [(d) c (b)]
-          a-4 [(g) fis (e)]
-          d-4 [(c) b (a)]
+          \time 2/4
+          g8 (a) b (c)
+          d (e) fis (g)
+          a (b) c (d)
+          e (fis) g (fis)
+          e-4 (d) c (b)
+          a-4 (g) fis (e)
+          d-4 (c) b (a)
           g4 r4
           \mus
         }
@@ -100,11 +100,17 @@ mus = { \bar "|." }
         \sectionLabel Arpegio
         \relative c' {
           \global
-          \time 4/4
-          g8 [(b d g]
-          b [d) g (d]
-          b [g d b)]
-          g4 r
+          \time 6/8
+          g4. b d
+          g b d 
+          g d b
+          g d b
+          g  r8 r4
+          g8 [(b d)]
+          g [(b d)]
+          g [(d b)]
+          g [(d b)]
+          g4. r8 r4
           \mus
         }
       }
